@@ -9,15 +9,15 @@ function SocialFooter(props) {
   const PUBLIC_URL = process.env.PUBLIC_URL;
 
   return (
-    <footer>
+    <footer className="social-footer">
       <a href="https://www.facebook.com">
-        <img src={PUBLIC_URL + '/images/facebook-192x192.png'} alt="Facebook" height="64" width="64" />
+        <img className="social-icon" src={PUBLIC_URL + '/images/facebook-192x192.png'} alt="Facebook" />
       </a>
       <a href="https://www.instagram.com">
-        <img src={PUBLIC_URL + '/images/instagram-192x192.png'} alt="Instagram" height="64" width="64" />
+        <img className="social-icon" src={PUBLIC_URL + '/images/instagram-192x192.png'} alt="Instagram" />
       </a>
       <a href="https://www.twitter.com">
-        <img src={PUBLIC_URL + '/images/twitter-192x192.png'} alt="Twitter" height="64" width="64" />
+        <img className="social-icon" src={PUBLIC_URL + '/images/twitter-192x192.png'} alt="Twitter" />
       </a>
     </footer>
   );

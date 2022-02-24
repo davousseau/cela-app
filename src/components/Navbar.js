@@ -8,7 +8,7 @@ import LanguageToggle from './LanguageToggle';
 function Navbar(props) {
 
   return (
-    <nav className="navbar navbar-light bg-light justify-content-between">
+    <nav className="navbar navbar-light bg-white justify-content-between">
       <div className='logo-text'>
         cela
         <br />

@@ -1,0 +1,32 @@
+/**
+ * App-fonts.css
+ * Custom style for the fonts.
+ * @author davousseau
+ */
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style : normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style : italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style : italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style : normal;
+}

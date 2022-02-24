@@ -1,91 +1,28 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height        : 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height      : 100vh;
-  display         : flex;
-  flex-direction  : column;
-  align-items     : center;
-  justify-content : center;
-  font-size       : calc(10px + 2vmin);
-  color           : white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /**
  * App.css
  * Custom style for the app in general.
  * @author davousseau
  */
 
-/** Add required fonts first. */
-
-@font-face {
-  font-family: 'Aileron';
-  src        : url('fonts/Aileron-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style : normal;
+.brand-image {
+  max-width: 100%;
+  width    : auto;
 }
-
-@font-face {
-  font-family: 'Aileron';
-  src        : url('fonts/Aileron-BoldItalic.woff2') format('woff2');
-  font-weight: bold;
-  font-style : italic;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src        : url('fonts/Aileron-Italic.woff2') format('woff2');
-  font-weight: normal;
-  font-style : italic;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src        : url('fonts/Aileron-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style : normal;
-}
-
-/** Start styling below. */
 
 .language-toggle {
+  font-family : Aileron;
+  font-size   : x-large;
+  font-weight : normal;
   margin-right: 20px;
 }
 
 .language-toggle>button {
   background-color: transparent;
   border          : none;
-  font-family     : Aileron;
-  font-size       : x-large;
-  font-weight     : normal;
+}
+
+.language-toggle>button:hover {
+  text-decoration: underline;
 }
 
 .logo-text {
@@ -97,6 +34,59 @@
 }
 
 .logo-text>.logo-subtitle {
-  font-size  : x-small;
-  font-weight: bold;
+  font-size  : large;
+  font-weight: normal;
+}
+
+.social-footer {
+  text-align: center;
+}
+
+.social-footer>a>.social-icon {
+  height: 96px;
+  width : 96px;
+}
+
+/** Add style for screen smaller then 576. */
+@media screen and (max-width: 576px) {
+  .language-toggle {
+    font-size   : x-small;
+    margin-right: 10px;
+  }
+
+  .logo-text {
+    font-size  : small;
+    margin-left: 10px;
+  }
+
+  .logo-text>.logo-subtitle {
+    font-size: xx-small;
+  }
+
+  .social-footer>a>.social-icon {
+    height: 32px;
+    width : 32px;
+  }
+}
+
+/** Add style for screen smaller then 992. */
+@media screen and (max-width: 992px) {
+  .language-toggle {
+    font-size   : medium;
+    margin-right: 15px;
+  }
+
+  .logo-text {
+    font-size  : large;
+    margin-left: 15px;
+  }
+
+  .logo-text>.logo-subtitle {
+    font-size: small;
+  }
+
+  .social-footer>a>.social-icon {
+    height: 64px;
+    width : 64px;
+  }
 }
