@@ -1,9 +1,21 @@
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import { useState } from 'react';
 
+/**
+ * App.js
+ * Main coponent for this app.
+ * @author davousseau
+ */
 function App() {
+
+  /** Array containing the current language and its setter. */
+  const [language, setLanguage] = useState("fr");
+
   return (
     <div className="App">
+      <Navbar language={language} setLanguage={setLanguage}></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

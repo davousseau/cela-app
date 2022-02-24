@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height        : 40vmin;
   pointer-events: none;
 }
 
@@ -15,13 +15,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height      : 100vh;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+  font-size       : calc(10px + 2vmin);
+  color           : white;
 }
 
 .App-link {
@@ -32,7 +32,71 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/**
+ * App.css
+ * Custom style for the app in general.
+ * @author davousseau
+ */
+
+/** Add required fonts first. */
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style : normal;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style : italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style : italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src        : url('fonts/Aileron-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style : normal;
+}
+
+/** Start styling below. */
+
+.language-toggle {
+  margin-right: 20px;
+}
+
+.language-toggle>button {
+  background-color: transparent;
+  border          : none;
+  font-family     : Aileron;
+  font-size       : x-large;
+  font-weight     : normal;
+}
+
+.logo-text {
+  font-family: Aileron;
+  font-size  : xx-large;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align : left;
+}
+
+.logo-text>.logo-subtitle {
+  font-size  : x-small;
+  font-weight: bold;
 }
