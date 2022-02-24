@@ -7,19 +7,15 @@ import LanguageToggle from './LanguageToggle';
  */
 function Navbar(props) {
 
-  /** String that matches the selected language. */
-  const SUBTITLE_LINE_1 = props.language === "fr" ? "CONSTRUIT PAR VOUS" : "BUILD BY DOG OWNER";
-  const SUBTITLE_LINE_2 = props.language === "fr" ? "POUR VOTRE CHIEN" : "FOR DOG OWNER";
-
   return (
     <nav className="navbar navbar-light bg-light justify-content-between">
       <div className='logo-text'>
         cela
         <br />
         <p className='logo-subtitle'>
-          {SUBTITLE_LINE_1}
+          {props.localization.subtitleLine1}
           <br />
-          {SUBTITLE_LINE_2}
+          {props.localization.subtitleLine2}
         </p>
       </div>
       <LanguageToggle setLanguage={props.setLanguage}></LanguageToggle>
