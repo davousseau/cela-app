@@ -1,8 +1,11 @@
 {
   "email": "courriel",
+  "emailEmpty": "Oups, aucun courriel n'a été saisi...",
+  "emailInvalid": "Oops, le courriel saisi est invalide...",
   "launchDate": "lancement",
   "stayTuned": "Restez à l'affût du",
   "subscribe": "S'inscrire",
+  "subscribeWithSuccess": "Hourra! Vous êtes inscrit avec succès.",
   "subtitleLine1": "CONSTRUIT PAR VOUS",
   "subtitleLine2": "POUR VOTRE CHIEN"
 }

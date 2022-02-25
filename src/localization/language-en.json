@@ -1,8 +1,11 @@
 {
   "email": "email",
+  "emailEmpty": "Oops, no email was entered...",
+  "emailInvalid": "Oops, the email entered is invalid...",
   "launchDate": "launch date",
   "stayTuned": "Stay tuned for",
   "subscribe": "Subscribe",
+  "subscribeWithSuccess": "Yippee! You are successfully registered.",
   "subtitleLine1": "BUILD BY DOG OWNER",
   "subtitleLine2": "FOR DOG OWNER"
 }
