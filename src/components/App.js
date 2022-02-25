@@ -1,15 +1,8 @@
-/** Resources */
-import languageEn from './localization/language-en.json'
-import languageFr from './localization/language-fr.json'
-
-/** Styles */
-import './App-fonts.css'
-import './App.css';
-
-/** Components and hooks */
-import Navbar from './components/Navbar';
-import SocialFooter from './components/SocialFooter';
+import Navbar from './Navbar';
+import SocialFooter from './SocialFooter';
 import { useState } from 'react';
+import languageEn from '../localization/language-en.json';
+import languageFr from '../localization/language-fr.json';
 
 /**
  * App.js
