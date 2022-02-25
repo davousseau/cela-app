@@ -10,7 +10,7 @@ function Navbar(props) {
   return (
     <nav className="navbar navbar-light bg-white justify-content-between">
       <div className='logo-text'>
-        cela
+        Cela
         <br />
         <p className='logo-subtitle'>
           {props.localization.subtitleLine1}
