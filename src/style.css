@@ -47,6 +47,34 @@
   width : 96px;
 }
 
+.subscription {
+  font-family: Aileron;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.subscription>div>button {
+  border-radius: 25px;
+  font-size: large;
+  width: 40%;
+}
+
+.subscription>div>input {
+  border-radius: 25px;
+  font-size: large;
+  margin-left: 10%;
+  margin-right: -10%;
+  width: 50%;
+}
+
+.subscription>div>.stay-tuned {
+  font-size: xx-large;
+}
+
+.subscription>div>.stay-tuned>.launch-date{
+  font-weight: bold;
+}
+
 /** Add style for screen smaller then 576. */
 @media screen and (max-width: 576px) {
   .language-toggle {
@@ -66,6 +94,22 @@
   .social-footer>a>.social-icon {
     height: 32px;
     width : 32px;
+  }
+
+  .subscription {
+    margin-left: 10px;
+  }
+
+  .subscription>div>button {
+    font-size: xx-small;
+  }
+  
+  .subscription>div>input {
+    font-size: xx-small;
+  }
+  
+  .subscription>div>.stay-tuned {
+    font-size: small;
   }
 }
 
@@ -88,5 +132,21 @@
   .social-footer>a>.social-icon {
     height: 64px;
     width : 64px;
+  }
+
+  .subscription {
+    margin-left: 15px;
+  }
+
+  .subscription>div>button {
+    font-size: small;
+  }
+  
+  .subscription>div>input {
+    font-size: small;
+  }
+
+  .subscription>div>.stay-tuned {
+    font-size: large;
   }
 }

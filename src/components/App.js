@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
 import SocialFooter from './SocialFooter';
+import Subscription from './Subscription';
 import { useState } from 'react';
 import languageEn from '../localization/language-en.json';
 import languageFr from '../localization/language-fr.json';
@@ -23,11 +24,11 @@ function App() {
   return (
     <div>
       <Navbar localization={LOCALIZATION} setLanguage={setLanguage}></Navbar>
-      <div className='row'>
-        <div className='col-lg'>
-          {/* TODO: */}
+      <div className='row align-items-center'>
+        <div className='col-sm'>
+          <Subscription localization={LOCALIZATION}></Subscription>
         </div>
-        <div className='col-lg'>
+        <div className='col-sm'>
           <img className="brand-image" src={PUBLIC_URL + '/images/five-assorted-breed-dogs.png'} alt="Germain Shepherd Puppy" />
         </div>
       </div>
