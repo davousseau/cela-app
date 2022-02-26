@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Cela App - Page d'accueil
+#
+# Auteur
+[David Brousseau](mailto:davousseau@gmail.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Contexte
+Projet effectué dans le cadre d'une association avec une entreprise en démarrage qui recherchait un programmeur pour développer une application web. L'équipe s'est dissoute bien avant que j'aie commencé ce projet, alors j'ai décidé de terminer cette application à titre de défi personnel.
 
-## Available Scripts
+# Description
+Création d'une page d'accueil permettant de recueillir le courriel d'un futur client. Cette application web a été conçue avec l'outil de programmation [Create React App](https://create-react-app.dev/).
 
-In the project directory, you can run:
+# Compatibilité
+Testé sous un environnement [Linux](https://linuxmint.com/) seulement. Toutefois, puisqu'il s'agit d'application web, le site devrait fonctionner sur toutes les plateformes.
 
-### `npm start`
+# Dépendances
+Toutes les dépendances sont gérées par le gestionnaire de paquet [NPM](https://www.npmjs.com/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Environnement suggéré
+L'éditeur de texte utilisé pour ce projet est [VSCode](https://code.visualstudio.com/). Sa simplicité et ses nombreuses extensions permettent d'aménager rapidement un environnement de travail efficace.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Extensions
+- [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets), extension pour le langage React.
+- [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate), extension pour la mise en page du CSS.
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension pour afficher les TODOs.
 
-### `npm test`
+# Installation
+Saisir la commande `npm install` dans un terminal pour installer toutes les dépendances. Assurez-vous d'être dans le dossier racine du projet.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Fonctionnement
+Saisir la commande `npm start` dans un terminal pour lancer l'application localement. Pour la distribution, consultez la documentation de votre serveur d'hébergement.
 
-### `npm run build`
+# Références
+## Stack Overflow
+- [How to check if it a text input has a valid email format in ReactJS?](https://stackoverflow.com/questions/39356826/how-to-check-if-it-a-text-input-has-a-valid-email-format-in-reactjs)
+- [react evironment variables .env return undefined](https://stackoverflow.com/questions/53237293/react-evironment-variables-env-return-undefined)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## YouTube
+- [How to set up React with Firebase/Firestore v9 (Part 2 | addDoc)](https://www.youtube.com/watch?v=YpuyxBfYRT8&t=31s)
