@@ -1,7 +1,8 @@
 /**
  * LanguageToggle.js
- * Language toggle for this app.
- * @author davousseau
+ * Toggle to change the language.
+ * @param {*} props Required properties
+ * @returns <div> LanguageToggle
  */
 function LanguageToggle(props) {
 

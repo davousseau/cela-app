@@ -15,19 +15,25 @@ Testé sous un environnement [Linux](https://linuxmint.com/) seulement. Toutefoi
 # Dépendances
 Toutes les dépendances sont gérées par le gestionnaire de paquet [NPM](https://www.npmjs.com/).
 
-# Environnement suggéré
+# Environnement de travail
 L'éditeur de texte utilisé pour ce projet est [VSCode](https://code.visualstudio.com/). Sa simplicité et ses nombreuses extensions permettent d'aménager rapidement un environnement de travail efficace.
 
-## Extensions
+## Extensions suggérées
 - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets), extension pour le langage React.
 - [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate), extension pour la mise en page du CSS.
+
+## Extensions secondaires
+- [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen), extension pour générer la documentation.
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension pour afficher les TODOs.
 
-# Installation
-Saisir la commande `npm install` dans un terminal pour installer toutes les dépendances. Assurez-vous d'être dans le dossier racine du projet.
+# Indications d'usage
+Assurez-vous d'être dans le dossier racine du projet avant d'executer les commandes. Pour le déploiement, consultez la documentation de votre serveur d'hébergement.
 
-# Fonctionnement
-Saisir la commande `npm start` dans un terminal pour lancer l'application localement. Pour la distribution, consultez la documentation de votre serveur d'hébergement.
+## Installation
+Saisir la commande `npm install` dans un terminal pour installer toutes les dépendances. 
+
+## Fonctionnement
+Saisir la commande `npm start` dans un terminal pour lancer l'application localement. 
 
 # Références
 ## Stack Overflow

@@ -7,13 +7,13 @@ import languageFr from '../localization/language-fr.json';
 
 /**
  * App.js
- * Main coponent for this app.
- * @author davousseau
+ * Main component of the application.
+ * @returns <div> App
  */
 function App() {
 
   /** Array containing the current language and its setter. */
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("fr");
 
   /** Application language */
   const LOCALIZATION = language === "fr" ? languageFr : languageEn;

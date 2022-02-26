@@ -1,7 +1,8 @@
 /**
  * SocialFooter.js
- * Social footer for this app.
- * @author davousseau
+ * Footer containing all social media links.
+ * @param {*} props Required properties
+ * @returns <div> SocialFooter
  */
 function SocialFooter(props) {
 

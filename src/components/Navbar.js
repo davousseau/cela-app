@@ -2,8 +2,9 @@ import LanguageToggle from './LanguageToggle';
 
 /**
  * Navbar.js
- * Navbar for this app.
- * @author davousseau
+ * Simple navigation bar for the language toggle.
+ * @param {*} props Required properties
+ * @returns <div> Navbar
  */
 function Navbar(props) {
 

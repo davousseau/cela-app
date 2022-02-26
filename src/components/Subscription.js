@@ -5,8 +5,9 @@ import db from '../firebase';
 
 /**
  * Subscription.js
- * Subscription for this app.
- * @author davousseau
+ * Component that allows e-mail to be saved in a database.
+ * @param {*} props Required properties
+ * @returns <div> Susbscription
  */
 function Subscription(props) {
 
@@ -15,11 +16,11 @@ function Subscription(props) {
 
   /** Send the new subscription to Firebase. */
   const addSubscription = async (email) => {
-    const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if (email === '') {
       alert(props.localization.emailEmpty)
-    } else if ( !regex.test(email)) {
+    } else if (!regex.test(email)) {
       alert(props.localization.emailInvalid)
     } else {
       await setDoc(doc(db, "subscriptions", email), {
@@ -33,7 +34,7 @@ function Subscription(props) {
     setEmail(event.target.value);
   };
 
-  /** Handle the click of the button. */
+  /** Handle the click of the subscribe button. */
   const handleSubscribe = event => {
     event.preventDefault();
     addSubscription(email);

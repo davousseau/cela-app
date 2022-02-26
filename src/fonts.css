@@ -1,8 +1,8 @@
 /**
  * fonts.css
- * Custom style for the fonts.
- * @author davousseau
+ * Importing required fonts.
  */
+ 
 @font-face {
   font-family: 'Aileron';
   src        : url('fonts/Aileron-Bold.woff2') format('woff2');
