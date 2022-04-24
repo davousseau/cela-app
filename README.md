@@ -9,6 +9,9 @@ Projet effectué dans le cadre d'une association avec une entreprise en démarra
 # Description
 Création d'une page d'accueil permettant de recueillir le courriel d'un futur client. Cette application web a été conçue avec l'outil de programmation [Create React App](https://create-react-app.dev/).
 
+# Aperçu
+Il est possible de *[visualiser](https://cela-app.web.app/)* un aperçu dans votre navigateur grâce à l'hébergement gratuit de [Firebase](https://firebase.google.com/).
+
 # Compatibilité
 Testé sous un environnement [Linux](https://linuxmint.com/) seulement. Toutefois, puisqu'il s'agit d'application web, le site devrait fonctionner sur toutes les plateformes.
 
